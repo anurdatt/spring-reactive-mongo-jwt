@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/UsersDB
+
+jjwt:
+  secret: ThisIsSecretForJWTHS512SignatureAlgorithmThatMUSTHave64ByteLength
+
+token:
+  expiration:
+    in:
+      hour: 24
